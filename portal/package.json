@@ -1,0 +1,26 @@
+{
+	"name": "Portal_Automation",
+	"version": "0.0.0",
+	"description": "Portal_Automation",
+	"main": "conf.js",
+	"author": {
+		"name": "Vikas",
+		"email": ""
+	},
+	"devDependencies": {
+		"jasmine-reporters": "~2.0.0",
+		"protractor": "~5.1.2",
+		"protractor-html-screenshot-reporter": "~0.0.21",
+		"protractor-jasmine2-html-reporter": "~0.0.5",
+		"protractor-jasmine2-screenshot-reporter": "~0.1.7",
+		"winston": "~1.0.1",
+		"jasmine-allure-reporter": "~0.2.3",
+		"selenium-webdriver": "^3.6.0",
+		"xlsx": "~0.11.5",
+		"exceljs": "~0.6.2"
+	},
+	"dependencies": {
+		"path": "^0.12.7",
+		"promise": "^7.0.4"
+	}
+}

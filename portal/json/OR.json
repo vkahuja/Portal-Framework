@@ -1,0 +1,41 @@
+{
+
+  "testsiteurl":"http://digitaldata-iad-qa-dddportal.ppxx7xd5tx.us-east-1.elasticbeanstalk.com",
+
+  "locators":{
+
+    "loginpage":{
+
+      "email":"username",
+      "password":"password",
+       "signinbutton":"Sign In"    
+
+    },
+    
+    "forgotpasswordpage":{
+
+      "forgotpasswordlink":"//*/a[@href='/forgotPassword?flow=v2&product=digitaldelivery']",
+      "emailid":"myForm.data.name",
+      "forgotpasswordbutton":"//*[@id='forgotPasswordButton']"
+     
+    },
+    
+    "logout": {
+    
+      "parentlogout_click":"//*/li[2]/a[@class='dropdown-toggle']/span",
+      "childlogout_click":"//*/li[3]/a"
+    },
+    
+    
+      "testdata":{
+      
+        "emailid":"vikas.ahuja@pb.com",
+        "pass":"Abc@1234"
+        
+    }
+
+}
+
+  }
+
+
